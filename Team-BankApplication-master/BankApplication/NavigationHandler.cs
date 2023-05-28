@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BankApplication {
 
-    internal class NavigationHandler {
+    public class NavigationHandler {
 
         //Navigation system for admins
         public static void AdminNavigationMenu(Admin admin) {

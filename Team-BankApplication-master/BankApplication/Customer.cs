@@ -7,14 +7,14 @@ namespace BankApplication {
     /// Customer class which is made up of; name, password and account(s)
     /// </summary>
 
-    internal class Customer : User {
+    public class Customer : User {
 
         //Accout list for the customer
         public Dictionary<string, List<string>> accounts;
 
         //Public get and a private set
-        public string Name { get; private set; }
-        public string Password { get; private set; }
+        public string Name { get; set; }
+        public string Password { get; set; }
 
         //Name, password and dictionary which includes name of account
         //and the list which hold the balance and what currency it is in

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BankApplication {
 
-    internal class LoginHandler {
+    public class LoginHandler {
 
         public static void LogIn() {
 

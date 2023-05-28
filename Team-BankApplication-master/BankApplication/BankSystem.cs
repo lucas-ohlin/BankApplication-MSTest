@@ -9,7 +9,7 @@ namespace BankApplication {
     /// BankApplication contains most of the methods for the actual project
     /// </summary>
 
-    internal class BankSystem {
+    public class BankSystem {
 
         public static void OpenAccount(Customer customer) {
 

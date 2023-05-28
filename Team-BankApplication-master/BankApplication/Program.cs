@@ -11,8 +11,10 @@ namespace BankApplication {
             Users.DefaultUserCreation();
 
             //Calls the login method from the BankSystem class
-            LoginHandler.LogIn();
-        
+            //LoginHandler.LogIn();
+
+            Customer customer1 = Users.customerList.Find(x => x.Name == "Tobias");
+            Console.WriteLine(customer1.accounts["Sparkonto"][0]);
         }
 
     }
